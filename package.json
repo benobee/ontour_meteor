@@ -1,0 +1,24 @@
+{
+  "name": "ontour",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "@google/maps": "^0.2.1",
+    "fuse.js": "^2.5.0",
+    "google-map-react": "^0.20.0",
+    "google-maps": "^3.2.1",
+    "http": "0.0.0",
+    "index.js": "0.0.3",
+    "jquery": "^3.1.1",
+    "js-marker-clusterer": "^1.0.0",
+    "meteor-node-stubs": "^0.2.3",
+    "node-js-marker-clusterer": "^1.0.0",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-pure-render": "^1.0.2",
+    "session": "^0.1.0",
+    "underscore": "^1.8.3"
+  }
+}

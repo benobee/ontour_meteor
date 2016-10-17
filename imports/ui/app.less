@@ -1,0 +1,37 @@
+#render-target{
+	.app-container{
+		position: relative;
+		width:100%;
+		height:90vh;
+		.sidebar-container{
+			position: fixed;
+			overflow-y:scroll;
+    		overflow-x:hidden;
+			top: 50px;
+			right:0;
+    		bottom:0;
+			background:white;
+			ul{
+				padding:2em;
+				li{
+					font-size:14px;
+				}
+			}
+		}
+		.info-box-container{
+			position: absolute;
+			top: 0;
+			right:0;
+			padding:0.2em;
+			font-size:2em;
+		}
+	}
+	.title{
+		font-size:2em;
+		font-family: 'Arvo', serif;
+	}
+	.map{
+		height:90vh;
+		width:100%;
+	}
+}
